@@ -18,6 +18,9 @@ public class PostJ8 {
 		
 		Collections.sort(names, (a, b) -> b.compareTo(a));
 		System.out.println(names);
+
+		Collections.sort(names, (a, b) -> b.compareTo(a));
+		System.out.println(names);
 		
 	}
 }
